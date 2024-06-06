@@ -47,7 +47,7 @@
          {images.map((image, index) => (
            <div
              key={index}
-             className="flex-1 rounded-lg bg-opacity-75 relative overflow-hidden group"
+             className="flex-1 mt-11 bg-opacity-75 relative overflow-hidden group"
              onMouseEnter={() => handleMouseEnter(index)}
              onMouseLeave={handleMouseLeave}
            >
