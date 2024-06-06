@@ -20,9 +20,9 @@
 
    const images = [
      { src: cut, title: "FENNEC", subtitle: "FOX", location: "India" },
-     { src: fish, title: "Fish", subtitle: "Ocean", location: "World" },
-     { src: monkey, title: "Monkey", subtitle: "Jungle", location: "Africa" },
-     { src: cow, title: "Cow", subtitle: "Farm", location: "Everywhere" },
+     { src: fish, title: "HUMPBACK", subtitle: "WHALE", location: "South Africa" },
+     { src: monkey, title: "COMMON BROWN", subtitle: "BABOON", location: "South Africa" },
+     { src: cow, title: "SPORTTED", subtitle: "DEER", location: "Amazon" },
    ];
 
    return (
@@ -58,7 +58,7 @@
              />
              <div className="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 ease-out group-hover:bg-opacity-70"></div>
              <div
-               className={`absolute bottom-20 left-5 mb-4 ml-4 text-white  
+               className={`absolute bottom-20 left-3 mb-4 ml-4 text-white  
                   "opacity-100" : "opacity-0"
                } transition-opacity duration-300 ease-in-out`}
                style={{
