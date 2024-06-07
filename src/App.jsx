@@ -26,7 +26,7 @@
    ];
 
    return (
-     <div className="p-3 bg-black inset-0">
+     <div className="pr-11 pl-11 bg-black inset-0">
        {/* <div className="p-10 inset-0 rounded-3xl bg-red-700">
          <div className="relative w-full h-full overflow-y-hidden">
            <div className="relative top-0 left-0 w-full h-full overflow-hidden">
@@ -56,7 +56,7 @@
                alt={image.title}
                className="w-full  h-full transition-all opacity-85 duration-300 ease-out transform scale-109 group-hover:scale-110 group-hover:opacity-70 group-hover:blur-sm group-hover:brightness-90 group-hover:saturate-0"
              />
-             <div className="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 ease-out group-hover:bg-opacity-35"></div>
+             <div className="absolute inset-0 bg-black bg-opacity-25 transition-opacity duration-300 ease-out group-hover:bg-opacity-40"></div>
              <div
                className={`absolute bottom-20 left-3 mb-4 ml-4 text-white  
                   "opacity-100" : "opacity-0"
